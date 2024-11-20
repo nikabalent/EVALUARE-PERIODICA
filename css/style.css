@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 coloane de dimensiuni egale */
+  gap: 10px; /* Spațiu între griduri */
+  padding: 10px;
+  border: 1px solid #333;
+  margin: 10px;
+  width: 50%; /* Fiecare div va ocupa 50% din lățimea containerului */
+}
+.grid-item {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #999;
+}

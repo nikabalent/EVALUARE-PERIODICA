@@ -1,18 +1,46 @@
-.container {
-  display: flex;
+body {
+  background-image: url("../img/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+.container {
+  padding: 20px;
+}
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 coloane de dimensiuni egale */
-  gap: 10px; /* Spațiu între griduri */
-  padding: 10px;
-  border: 1px solid #333;
-  margin: 10px;
-  width: 50%; /* Fiecare div va ocupa 50% din lățimea containerului */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
+
 .grid-item {
-  background-color: #ddd;
-  padding: 20px;
-  text-align: center;
-  border: 1px solid #999;
+  background-color: #ffffff; /* Fundal alb pentru fiecare element din grid */
+  padding: 10px;
+  border: 1px solid #ddd; /* Bordură subțire gri */
+  text-align: left; /* Aliniere text la stânga */
+  box-shadow: 4 6px 8px rgba(0, 0, 0, 0.1); /* Ușoară umbră pentru efect de ridicare */
+}
+
+h2 {
+  color: #333; /* Culoare text gri închis */
+}
+button {
+  background-color: #28a745; /* Fundal verde */
+  color: white; /* Text alb */
+  border: none;
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  text-align: left; /* Aliniere text la stânga pentru butoane */
+}
+button {
+  background-color: white; /* Fundal alb la hover */
+  color: #28a745; /* Text verde la hover */
+  border: 1px solid #28a745; /* Bordură verde la hover */
+}
+p {
+  collor: white;
+  border: 1px solid #000000;
 }
